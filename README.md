@@ -50,7 +50,7 @@ AutoMl runs a gamut of classifiers and does incredible number crunching when it 
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
-DeepLearning technique like FFNN can be used to fit the dataset, with proper tuning , it might surpass the AutoML.  XGBoost Classifier can also be used. 
+DeepLearning technique like FFNN can be used to fit the dataset, with proper tuning , it might surpass the AutoML. 
 
 Using BayesianSampling might improve the HyperDrive pipeline. 
 
