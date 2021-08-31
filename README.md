@@ -6,9 +6,9 @@ In this project, we build and optimize an Azure ML pipeline using the Python SDK
 This model is then compared to an Azure AutoML run.
 
 ## Summary
-**In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
+**This dataset contains bank marketing campaign for potential target customer.The target column is the deposit column (Y/N)**
 
-**In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
+**The solution is to run classification ML model using LogisticRegression with HyperDrive and AutoML and compare the result**
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
