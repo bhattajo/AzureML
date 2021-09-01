@@ -50,6 +50,7 @@ Other attributes :
 • 15 - poutcome: outcome of the previous marketing campaign 
 • 21 - has the client subscribed a term deposit (y/n)
 
+Data was cleaned and label/one hot encoding used in clean_data method of train.py.
 
 **What are the benefits of the parameter sampler you chose?**
 Parameter sampler has 3 options , Grid, Random and Bayesian.Bayesian sampling build a probability model of the objective function and use it to select the most promising hyperparameters to evaluate in the true objective function. RandomSampling is faster and usullay always yield similar accuracy compared to GridSampling.
