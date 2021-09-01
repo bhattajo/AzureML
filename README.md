@@ -23,6 +23,34 @@ We used HyperDrive to run multiple simulation automatically and selecting the be
 
 In order to define sample space for hyperparameter tuning we used RandomParameterSampling class. In this sampling algorithm, parameter values are chosen from a set of discrete values or a distribution over a continuous range.
 
+**DataSet Information:**
+
+Bank client data :
+
+• 1 - age
+• 2 - job : type of job
+• 3 - marital : marital status
+• 4 - education
+• 5 - default: has credit in default?
+• 6 - housing: has housing loan?
+• 7 - loan: has personal loan?
+
+Related to previous contact :
+
+• 8 - contact: contact communication type
+• 9 - month: last contact month of year
+• 10 - day_of_week: last contact day of the week
+• 11 - duration: last contact duration, in seconds
+
+Other attributes :
+
+• 12 - campaign: number of contacts performed during this campaign and for this client
+• 13 - pdays: number of days that passed by after the client was last contacted from a previous campaign
+• 14 - previous: number of contacts performed before this campaign and for this client
+• 15 - poutcome: outcome of the previous marketing campaign 
+• 21 - has the client subscribed a term deposit (y/n)
+
+
 **What are the benefits of the parameter sampler you chose?**
 Parameter sampler has 3 options , Grid, Random and Bayesian.Bayesian sampling build a probability model of the objective function and use it to select the most promising hyperparameters to evaluate in the true objective function. RandomSampling is faster and usullay always yield similar accuracy compared to GridSampling.
 
